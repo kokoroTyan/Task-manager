@@ -1,0 +1,48 @@
+.header{
+  padding: 1vw 0 1vw 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffccb3;
+  margin-bottom: 0.5vw;
+}
+
+.header img{
+  width: 3vw;
+  height: 3vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+#dropdown-basic{
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #30211e;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.menu-container{
+  position: relative;
+}
+.menu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 10vw;
+}
+.dd-item button{
+  width: 100%;
+  background-color: #ffccb3;
+  outline: none;
+  border: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.dd-item button:hover{
+  background-color: #ffa577;
+  transition: 0.3s ease-in-out;
+}

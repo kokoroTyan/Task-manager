@@ -1,0 +1,17 @@
+[
+  {
+    "avatar": "GxD2eh8CYk4dcFZoNrJ-tyVa.jpg",
+    "email": "admin123@gmail.com",
+    "password": "qwerty",
+    "tasks": [
+      {
+        "name": "Task1",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "category": "NotUrgNotImp",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "date": "2024-06-16"
+      }
+    ]
+  }
+]

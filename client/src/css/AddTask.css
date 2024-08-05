@@ -1,0 +1,23 @@
+.addTaskForm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vw;
+    flex-direction: column;
+}
+
+.addTaskForm input, .addTaskForm textarea, .addTaskForm select{
+    width: 100%;
+    border: 1px solid rgb(198, 198, 198);
+    outline: none;
+    padding: 0.2vw;
+}
+.addTaskForm button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffe8dd;
+}
+.addTaskForm button:hover{
+    background-color: #ffbb98;
+}

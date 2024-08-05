@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.days {
+  background-color: #ffa577;
+  color: #30211e;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 1vw;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.calendar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}

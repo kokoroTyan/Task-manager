@@ -1,0 +1,56 @@
+.cell {
+  width: 10vw;
+  height: 8.3vw;
+  position: relative;
+}
+.date{
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+#active {
+  background-color: #d3d3d7;
+  border-bottom: 2px solid rgb(157, 157, 160)7;
+}
+
+.tasks{
+  overflow-y: scroll;
+  height: 70%;
+}
+.tasks::-webkit-scrollbar {
+  display: none;
+}
+
+
+.cell .task{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  align-items: center;
+  padding: 0.2vw;
+}
+.deleteTask{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #30211e;
+  font-weight: bold;
+}
+
+#UrgImp{
+  border-left: 4px solid #d55448;
+  background-color: #d5544860;
+}
+#NotUrgImp{
+  border-left: 4px solid #896e69;
+  background-color: #896e6960;
+}
+#UrgNotImp{
+  border-left: 4px solid #ffa577;
+  background-color: #ffa57760;
+}
+#NotUrgNotImp{
+  border-left: 4px solid #ffccb3;
+  background-color: #ffccb360;
+}

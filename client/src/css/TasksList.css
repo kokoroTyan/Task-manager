@@ -1,0 +1,21 @@
+.tasksList .task{
+    padding: 0.5vw 0 0.5vw 0.5vw;
+    margin-bottom: 1vw;
+}
+
+#UrgImp{
+    border-left: 4px solid #d55448;
+    background-color: #d5544860;
+}
+#NotUrgImp{
+    border-left: 4px solid #896e69;
+    background-color: #896e6960;
+}
+#UrgNotImp{
+    border-left: 4px solid #ffa577;
+    background-color: #ffa57760;
+}
+#NotUrgNotImp{
+    border-left: 4px solid #ffccb3;
+    background-color: #ffccb360;
+}

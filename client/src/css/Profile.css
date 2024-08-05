@@ -1,0 +1,45 @@
+.profile{
+    padding: 3vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9f9ff;
+}
+.editProfile input[type="file"]{
+    display: none;
+}
+img{
+    width: 10vw;
+    height: 10vw;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.editProfile{
+    width: 30vw;
+    height: 30vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+}
+.editProfile input{
+    width: 100%;
+    border: 1px solid rgb(198, 198, 198);
+    outline: none;
+    padding: 0.2vw;
+}
+.editProfile button, .profile>button{
+    border: none;
+    outline: none;
+    background-color: #ffe8dd;
+    transition: 0.3s ease-in-out;
+}
+.profile>button{
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+}
+.editProfile button:hover, .profile>button:hover{
+    background-color: #ffbb98;
+    transition: 0.3s ease-in-out;
+}
